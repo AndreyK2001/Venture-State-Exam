@@ -1,0 +1,22 @@
+% если хочется, можно поставить 14pt
+\documentclass[12pt, dvipsnames]{extarticle}
+
+\input{preambule.tex}
+
+\begin{document}
+    \input{titlepage}
+
+	\setcounter{page}{2}
+	
+	\newpage
+	\tableofcontents
+	\newpage
+	
+    \input{body/micro_ec}
+    
+    \pagebreak
+
+	\newpage
+	\printbibliography
+
+\end{document}
